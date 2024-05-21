@@ -1,0 +1,277 @@
+/* Estilos para pantallas medianas*/
+@media (min-width: 577px) and (max-width: 768px){
+
+body{
+  padding-left: 20px;
+  padding-right: 20px;
+}  
+
+.logo{
+width: 100px;
+padding-left: 45%;
+}
+
+header{
+padding-top: 20px; 
+}
+
+.navbar-toggler {
+color: #ff0000 !important;
+background-color: white !important;
+}
+  
+nav ul li a {
+font-size: 1rem !important;
+}
+
+.navbar-nav{
+align-items: flex-end !important;
+}
+
+.navbar-toggler-icon {
+width: 1em !important;
+height: 1em!important;
+}
+
+#landing h1{
+font-size: 1.8rem;
+text-align: center;
+margin-top: -420px;
+}
+  
+.landing-text p{
+font-size: 20px;
+padding-top: 250px;
+padding-bottom: 30px;
+}
+
+.landing-content {
+display:flex;
+flex-direction: column;
+}
+  
+.landing-image img {
+max-width: 90%; 
+}
+ 
+h2{
+  padding-top: 50px;
+}
+
+#movies-container {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* Para mejorar el desplazamiento en iOS */
+}
+
+
+
+/*seccion estreno*/
+#movies-estreno {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto; 
+  scroll-snap-type: x mandatory; 
+  scroll-behavior: smooth; 
+  -webkit-overflow-scrolling: touch; 
+  gap: 20px; 
+}
+
+
+#movies-estreno .pelicula {
+  flex: 0 0 auto; 
+  margin-right: 0;
+}
+
+
+.footer p {
+ font-size: 14px;
+}
+ /* Contenedor principal de detalle */
+ .container-detalle {
+  flex-direction: column; 
+  padding: 10px; 
+}
+
+/* Imagen de la portada */
+.container-detalle .col-md-4 {
+  width: 100%; 
+  margin-bottom: 20px; 
+}
+
+.container-detalle .col-md-4 img {
+  border-radius: 10px; 
+  display: block; 
+  margin: 0 auto;
+
+}
+
+/* Detalles de la película */
+.container-detalle .col-md-8 {
+  width: 100%; 
+}
+
+.container-detalle h2 {
+  font-size: 1.8rem; 
+  margin-bottom: 10px;
+}
+
+.container-detalle p {
+  font-size: 1rem; 
+  margin-bottom: 10px; 
+  padding-top: 10px; 
+}
+
+.container-detalle .btn-volver-inicio {
+  margin-top: 20px; 
+  font-size: 1rem; 
+}
+
+}
+
+
+
+
+
+
+@media (max-width: 576px){
+
+body{
+padding-left: 20px;
+padding-right: 20px;
+}  
+  
+.logo{
+width: 100px;
+padding-left: 40%;
+
+}
+header{
+padding-top: 20px;
+}
+
+.navbar-toggler {
+color: #ff0000 !important;
+background-color: white !important;
+}
+
+nav ul li a {
+font-size: 1rem !important;
+}
+
+.navbar-nav{
+align-items: flex-end !important;  
+}
+
+.navbar-toggler-icon {
+width: 1em !important;
+height: 1em!important;
+}
+
+#landing h1{
+
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: -270px;
+}
+
+.landing-text p{
+  font-size: 16px;
+  padding-top: 130px;
+}
+
+.landing-content {
+  display:flex;
+  flex-direction: column;
+}
+
+
+.landing-image img {
+  max-width: 100%; 
+}
+
+h2{
+  padding-top: 50px;
+}
+
+#movies-container {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* Para mejorar el desplazamiento en iOS */
+}
+#movies-container .pelicula {
+  flex: 0 0 auto;
+  width: 100% ;
+  margin-right: 10px; 
+}
+
+#btnSubir {
+  right: 5px; 
+  width: 80px;
+  height: 80px;
+}
+
+
+/*seccion estreno*/
+#movies-estreno {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto; 
+  scroll-snap-type: x mandatory; 
+  scroll-behavior: smooth; 
+  -webkit-overflow-scrolling: touch; 
+  gap: 20px; 
+}
+
+
+
+.footer p {
+ font-size: 14px;
+}
+
+ /* Contenedor principal de detalle */
+ .container-detalle {
+  flex-direction: column; 
+  padding: 10px; 
+}
+
+/* Imagen de la portada */
+.container-detalle .col-md-4 {
+  width: 100%; 
+  margin-bottom: 20px; 
+}
+
+.container-detalle .col-md-4 img {
+  border-radius: 10px; 
+}
+
+/* Detalles de la película */
+.container-detalle .col-md-8 {
+  width: 100%; 
+}
+
+.container-detalle h2 {
+  font-size: 1.8rem; 
+  margin-bottom: 10px;
+}
+
+.container-detalle p {
+  font-size: 1rem; 
+  margin-bottom: 10px; 
+  padding-top: 10px; 
+}
+
+.container-detalle .btn-volver-inicio {
+  margin-top: 20px; 
+  font-size: 1rem; 
+}
+}
+
+
+
+
+
+
+

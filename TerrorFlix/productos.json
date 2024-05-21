@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "nombre": "Abigail",
+        "descripcion": "A una banda de delincuentes se les ha encargado secuestrar a Abigail, una bailarina de doce años hija de una poderosa figura del inframundo. Su misión requiere también vigilarla durante la noche para poder cobrar un rescate de 50 millones de dólares. En una mansión aislada, los captores comienzan a desaparecer, uno por uno, y descubren, para su creciente horror, que la pequeña niña con la que están encerrados no es normal y está mostrando su verdadera naturaleza.",
+        "año": 2024,
+        "minutos": 109,
+        "estreno": "2024-05-25",
+        "imagen": "imagenes/peliculas/abigail.jpg"
+       
+    },
+    {
+        "id": 2,
+        "nombre": "La Monja 2",
+        "descripcion": "Un sacerdote es asesinado. Un mal se está extendiendo. La hermana Irene una vez más se encuentra cara a cara con Valak, la monja demonio. Secuela de 'La monja' (2018).",
+        "año": 2024,
+        "minutos": 110,
+        "estreno": "2024-05-10",
+        "imagen": "imagenes/peliculas/la-monja-2.jpg"
+       
+    },
+    {
+        "id": 3,
+        "nombre": "La Primera Profecía",
+        "descripcion": "Cuando una joven estadounidense es enviada a Roma para iniciar una vida de servicio a la Iglesia, se topa con una oscuridad que pone en cuestión su propia fe y descubre una conspiración aterradora que espera provocar el nacimiento de la encarnación del mal. Precuela de 'La profecía' (1976).",
+        "año": 2024,
+        "minutos": 120,
+        "estreno": "2024-05-28",
+        "imagen": "imagenes/peliculas/la-primera-profecia.jpg"
+      
+    },
+    {
+        "id": 4,
+        "nombre": "Los extraños",
+        "descripcion": "Durante una parada en un viaje por carretera, en una remota casa de alquiler en el bosque, una joven pareja se convierte en la presa de una misteriosa banda de tres extraños enmascarados que atacan sin previo aviso ni motivo.",
+        "año": 2024,
+        "minutos": 91,
+        "estreno": "2024-05-19",
+        "imagen": "imagenes/peliculas/Los-extraños.png"
+      
+    },
+    {
+        "id": 5,
+        "nombre": "Tarot de la Muerte",
+        "descripcion": "Cuando un grupo de amigos infringe de manera imprudente la regla sagrada de la lectura de las cartas del Tarot -nunca se debe utilizar la baraja de otra persona-, desatan sin saberlo un mal indecible atrapado en las cartas malditas. Uno a uno, se enfrentan cara a cara al destino y acaban en una carrera contra la muerte para escapar del futuro que las cartas predicen.",
+        "año": 2024,
+        "minutos": 92,
+        "estreno": "2024-05-09",
+        "imagen": "imagenes/peliculas/tarot.jpg"
+        
+    }
+    
+    ]

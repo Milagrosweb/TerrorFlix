@@ -1,0 +1,32 @@
+{
+  "name": "TerrorFlix",
+  "short_name": "TerrorFlix",
+  "theme_color": "#000000",
+  "background_color": "#4B0418",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "index.html",
+  "description": "Disfruta de las mejores películas de terror, suspenso y misterio.",
+  "icons": [
+      {
+          "src": "icons/Logo-1-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      },
+      {
+          "src": "icons/Logo-2-256.png",
+          "sizes": "256x256",
+          "type": "image/png"
+      },
+      {
+          "src": "icons/Logo-3-384.png",
+          "sizes": "384x384",
+          "type": "image/png"
+      },
+      {
+          "src": "icons/Logo-4-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+      }
+  ]
+}

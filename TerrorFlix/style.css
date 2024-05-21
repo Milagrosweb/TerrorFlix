@@ -1,0 +1,471 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.logo{
+  width: 600px;
+}
+
+
+/* Fondo */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle farthest-corner at 32.7% 82.7%, rgb(106, 2, 26) 8.3%, rgb(1, 9, 19) 79.4%);
+    filter: blur(5px); 
+    z-index: -1;
+}
+
+  
+/* Encabezado */
+header {
+padding: 10px 0;
+
+
+}
+
+header .row{
+  justify-content:end;
+}
+  
+header .container-1 {
+margin: 0 auto; 
+max-width: 1200px;
+padding-bottom: 50px;
+}
+
+header h1 {
+color: #ffffff;
+
+}
+ 
+
+/* Estilos para la barra de navegación */
+
+nav ul {
+display: flex;
+list-style: none;
+padding: 0;
+
+}
+
+nav ul li {
+margin-right: 10px; 
+margin-left: 10px;
+}
+
+nav ul li a {
+color: #ffffff !important;
+text-decoration: none;
+font-family: "Bangers", system-ui;
+font-style: normal;
+font-size: 1.8rem !important;
+}
+
+::placeholder{
+font-family: "Bangers", system-ui;
+}
+nav ul li a:hover {
+color: #ff0000 !important; 
+text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+
+/* Ajuste de la posición del botón de hamburguesa */
+.navbar-toggler {
+  border: none;
+}
+
+/* Ajuste de la posición de los elementos del menú */
+.navbar-nav {
+  justify-content: flex-end;
+}
+.dropdown-menu{
+  background-color: #4B0418 !important;
+  border: 50px !important;
+
+}
+
+.dropdown-menu a {
+  font-size: 1.2rem !important; 
+  text-align: left;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-hover-bg: none !important;
+}
+
+
+
+/* Contenedor principal */
+.container-1 {
+color: #ffffff;
+margin: 0 auto; 
+max-width: 1200px;
+}
+  
+main{
+margin: 0 auto; 
+max-width: 1200px;
+}
+
+
+/* Secciones */
+section {
+color: #ffffff;
+}
+  
+h2{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+
+/*Landing*/
+#landing {
+  max-width: 1200px;
+}
+
+.landing-content {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  align-items: stretch;
+}
+
+
+.landing-image {
+  text-align: center; 
+}
+
+.landing-image img {
+  max-width: 150%; 
+  animation: slideRight 1s ease-in-out; 
+
+}
+
+.landing-text {
+opacity: 0; 
+animation: slideDown 1s ease-in-out forwards;
+}
+
+@keyframes slideRight {
+from {
+transform: translateX(-100%);
+}
+to {
+transform: translateX(0);
+}
+}
+  
+@keyframes slideDown {
+from {
+transform: translateY(-100%);
+opacity: 0;
+}
+to {
+transform: translateY(0);
+opacity: 1;
+}
+}
+
+#landing h1{
+font-family: Nosifer;
+padding-bottom: 40px;
+padding-top: 30px;
+font-size: 1.8rem;
+text-align: center;
+}
+
+.landing-text p{
+font-size: 1.2rem;
+font-family: "Lato", sans-serif;
+text-align: center;
+text-shadow: 1px 1px 5px rgba(1, 1, 1, 0.908); 
+}
+
+
+/* Estilos para la sección de películas en pantallas grandes */
+#Peliculas {
+  padding: 50px 0; 
+}
+
+#Peliculas h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 2rem; 
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 30px; 
+}
+
+#movies-container .col-12 {
+  flex-basis: calc(33.33%); 
+  margin-bottom: 10px;
+}
+
+#movies-container .card {
+  background-color: #222; 
+  color: #ffffff; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+  margin-bottom: 20px;
+}
+
+#movies-container .card:hover {
+  box-shadow: 0 4px 8px rgba(216, 5, 5, 0.769);
+}
+
+
+#movies-container .card-img-top {
+  width: 100%; 
+  height: 500px; 
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px; 
+}
+
+#movies-container .card-body {
+  padding: 20px; 
+}
+
+#movies-container .card-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px; 
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  color: #ff0000;
+}
+
+#movies-container .card-text {
+  font-size: 1rem;
+  margin-bottom: 15px; 
+}
+/* Estilos para la sección de búsqueda y ordenamiento */
+#orden, #busqueda {
+  font-family: 'Lato', sans-serif; 
+}
+
+.btn-ver-mas{
+  background-color: #ff0000 !important;
+  border: none !important;
+  margin-top: 15px !important;
+}
+
+.btn-ver-mas:hover{
+  background-color: white !important;
+  color: black !important;
+ 
+}
+
+
+
+
+#orden {
+  
+  font-family: "Bangers", system-ui;
+}
+
+.orden{
+  padding-bottom: 40px;
+}
+.row.mb-3 .col-md-3 label {
+  margin-bottom: 10px; 
+}
+
+.barra-1{
+  font-family: 'Lato', sans-serif; 
+}
+.contaniner-filtros{
+  padding-bottom: 50px;
+}
+
+/* Estilos para las estrellas de valoración */
+.rating {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.star {
+  font-size: 24px;
+
+  cursor: pointer; 
+}
+
+
+
+/* Contenedor para los detalles de la película */
+.container-detalle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.3); 
+  backdrop-filter: blur(10px);
+  border-radius: 10px; 
+  padding: 20px; 
+  margin: 20px; 
+}
+
+/* Imagen de la portada */
+.container-detalle .col-md-4 {
+  width: 40%; 
+}
+
+.container-detalle .col-md-4 img {
+  max-width: 100%; 
+  border-radius: 10px; 
+}
+
+/* Detalles de la película */
+.container-detalle .col-md-8 {
+  width: 58%; 
+}
+
+.container-detalle h2 {
+  font-size: 2rem; 
+  margin-bottom: 5px; 
+  text-align: center;
+  color: #ff0000;
+}
+
+.container-detalle p {
+  margin-bottom: 5px; 
+  font-family: "Lato", sans-serif;
+  color: black;
+  font-size: 1rem;
+  padding-top: 5px;
+}
+
+
+.container-detalle .btn-volver-inicio{
+ background-color: #ff0000; 
+ border: none;
+ margin-top: 10px;
+ font-family: "Lato", sans-serif;
+
+ 
+  
+}
+
+
+
+
+
+.container-detalle .btn-volver-inicio:hover{
+  background-color: white; 
+  color: #ff0000;
+}
+
+
+
+/*seccion estreno*/
+#movies-estreno {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto; 
+  scroll-snap-type: x mandatory; 
+  scroll-behavior: smooth; 
+  -webkit-overflow-scrolling: touch; 
+  gap: 20px; 
+  padding-bottom: 80px;
+}
+
+
+#movies-estreno .pelicula {
+  flex: 0 0 auto; 
+  width: 300px; 
+  margin-right: 20px; 
+  scroll-snap-align: start; 
+  transform: scale(0.9); 
+  transition: transform 0.3s ease; 
+  padding-bottom: 10px;
+}
+
+
+#movies-estreno .pelicula:hover {
+  transform: scale(1); 
+  z-index: 1; 
+  
+}
+
+
+#movies-estreno .pelicula img {
+  width: 100%; /* Ajustar la imagen al 100% del ancho del contenedor */
+  height: 100%; /* Mantener la proporción de aspecto original */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+}
+
+
+#movies-estreno .pelicula img:hover {
+box-shadow: 0 4px 8px rgba(216, 5, 5, 0.7);
+}
+
+#movies-estreno h2{
+  font-size: 1.5rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ff0000;
+
+}
+#movies-estreno::-webkit-scrollbar {
+  width: 3px; /* Ancho de la barra */
+}
+
+/* Estilo del riel de la barra de desplazamiento */
+#movies-estreno::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color del riel */
+  border-radius: 5px; /* Borde redondeado del riel */
+}
+
+/* Estilo del pulgar de la barra de desplazamiento */
+#movies-estreno::-webkit-scrollbar-thumb {
+  background-color: #ff0000; /* Color del pulgar */
+  border-radius: 5px; /* Borde redondeado del pulgar */
+}
+
+/* Estilo del botón de la barra de desplazamiento */
+#movies-estreno::-webkit-scrollbar-button {
+  display: none; /* Ocultar el botón */
+}
+
+/* Pie de página */
+.footer {
+  bottom: 0;
+  width: 100%;
+  color: #ffffff;
+ padding-top: 80px;
+  
+}
+
+
+
+#btnSubir {
+position: fixed;
+bottom: 20px;
+right: 20px; 
+z-index: 1000;
+width: 80px;
+height: 150px;
+border: none; 
+outline: none;
+cursor: pointer;
+padding: 0; 
+background: none; 
+background-image: url('imagenes/arriba.png');
+background-size: cover; 
+background-position: center; 
+filter: drop-shadow(5px 5px 10px red);
+}
+
+#btnSubir span {
+visibility: hidden; 
+}
